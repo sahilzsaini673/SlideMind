@@ -81,7 +81,7 @@ Rules:
     }
 
     const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${process.env.Gemini_api_key}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${process.env.Gemini_api_key}`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
